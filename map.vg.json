@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/VincentG03/FIT3179-Homework-Assignment-3/refs/heads/main/data.csv"
+          "url": "https://raw.githubusercontent.com/VincentG03/FIT3179-HW-W10/refs/heads/main/data.csv"
         },
         "key": "Country",
         "fields": ["Cost of Living Index", "Rent Index", "Groceries Index", "Restaurant Price Index", "Local Purchasing Power Index"]
