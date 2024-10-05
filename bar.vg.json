@@ -6,6 +6,35 @@
     "data": {
       "url": "https://raw.githubusercontent.com/VincentG03/FIT3179-HW-W10/refs/heads/main/data.csv"
     },
+    "params": [
+      {
+        "name": "cost_of_living_min",
+        "value": 0,
+        "bind": {
+          "input": "range",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "name": "Minimum"
+        }
+      },
+      {
+        "name": "cost_of_living_max",
+        "value": 100,
+        "bind": {
+          "input": "range",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "name": "Maximum"
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "datum['Cost of Living Index'] >= cost_of_living_min && datum['Cost of Living Index'] <= cost_of_living_max"
+      }
+    ],
     "mark": "bar",
     "encoding": {
       "x": {

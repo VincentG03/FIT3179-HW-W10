@@ -47,9 +47,58 @@
           {"field": "Cost of Living Index", "type": "quantitative"},
           {"field": "Rent Index", "type": "quantitative"},
           {"field": "Groceries Index", "type": "quantitative"},
-          {"field": "Restaurant Price Index", "type": "quantitative"},
-          {"field": "Local Purchasing Power Index", "type": "quantitative"}
+          {"field": "Restaurant Price Index", "type": "quantitative"}
         ]
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "red",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {"value": 375},   
+        "y": {"value": 80},   
+        "x2": {"value": 415},  
+        "y2": {"value": 66}   
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 9,  
+        "color": "red"   
+      },
+      "encoding": {
+        "x": {"value": 320},  
+        "y": {"value": 80},  
+        "text": {"value": "Highest: Switzerland (99.1)"}
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "red",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {"value": 545},  
+        "y": {"value": 120},  
+        "x2": {"value": 545},  
+        "y2": {"value": 180}   
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 9,  
+        "color": "red"  
+      },
+      "encoding": {
+        "x": {"value": 560}, 
+        "y": {"value": 190},  
+        "text": {"value": "Lowest: Pakistan (18.8)"}
       }
     }
   ]
